@@ -1,0 +1,55 @@
+# IF ELSE CONDITIONS
+
+# If (condition)
+ # code is the conidtion is true
+x = 28
+y = 7
+if( x < y ):
+print('28 is greater than 6')
+
+# student can only enter the college if student enter less than college entry time
+# if student can come at college entry time then student is only allow with late reamrks
+
+
+
+collegeEntryTime = 20
+studentEnterTime = 25
+
+if(studentEnterTime < collegeEntryTime):
+    print('you can enter in the college')
+elif(studentEnterTime == collegeEntryTime):
+    print('you can enter with late remarks')
+elif(studentEnterTime > 23):
+    print('allowed to enter in the college with proper felicitation')
+else:
+    print('go back to hostel')
+    
+    # short hand condition
+
+if(60>47): print('60 is greater than 47')
+
+x = 98
+y = 59
+print('X') if x > y else print('Y')
+
+# and or keywords , logical operators
+x= 98
+y= 95
+z= 82
+if(x < y and x < z):
+   print ('both the conditions are true')
+if(x < y or x < z):
+print('if any of the condition is true')
+
+# Nested conditions
+age= 20
+if( age < 30):
+
+    print('age is less than 26')
+    
+    if(age < 20):
+       print('the person is a minor. no entry allowed')
+    else:
+        print('the person is allowed') #range for this else is 20-26
+else:
+    print('age is greater than or equal to 26')
